@@ -1,3 +1,20 @@
-<h2 id="title">Welcome to Ember</h2>
-
-{{outlet}}
+<div class="navbar navbar-default"><!--  navbar-fixed-top -->
+  <div class="container">
+    <div class="navbar-header">
+      <h3 id="title"> <i class="fa fa-dollar"> </i> Inspire My Finance</h3>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar-main">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <ul class="dropdown-menu" aria-labelledby="themes">
+              <li><a href="">Default</a></li>
+              <li class="divider"></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container">
+  {{outlet}}
+</div>
