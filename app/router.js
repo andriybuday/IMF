@@ -6,7 +6,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('calculators');
+  this.route('calculators', function() {
+    this.route('compound-interest-calculator');
+  });
 });
 
 export default Router;

@@ -6,9 +6,8 @@ module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
     // Add options here
 	'ember-cli-bootswatch': {
-      'theme': 'cerulean',
-      'excludeJS': true,
-	  'excludeFonts': true,
+      'theme': 'spacelab',
+	    'excludeFonts': true,
     }
   });
 
