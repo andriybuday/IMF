@@ -9,6 +9,7 @@ Router.map(function() {
   this.route('calculators', function() {
     this.route('compound-interest-calculator');
   });
+  this.route('books');
 });
 
 export default Router;

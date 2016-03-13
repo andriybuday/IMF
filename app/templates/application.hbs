@@ -18,7 +18,11 @@
           </ul>
         </li>
         <li><a href="#">Stocks</a></li>
-        <li><a href="#">Books</a></li>
+        <li>
+          {{#link-to "books"}}
+            Books
+          {{/link-to}}
+        </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">About</a></li>
